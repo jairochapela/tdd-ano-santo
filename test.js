@@ -16,4 +16,6 @@ describe(('Comprobación de año santo'), () => {
   it('2105 no es santo', () => { strictEqual(anoSanto(2105), false) })
   it('2106 es santo', () => { strictEqual(anoSanto(2106), true) })
   it('2107 no es santo', () => { strictEqual(anoSanto(2107), false) })
+  it('1992 no es santo', () => { strictEqual(anoSanto(1992), false) })
+  it('1993 es santo', () => { strictEqual(anoSanto(1993), true) })
 })
