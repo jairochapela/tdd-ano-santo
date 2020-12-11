@@ -5,7 +5,7 @@
  * @returns true o false, en función de si es año santo o no.
  */
 function anoSanto(n) {
-  if (n > 2100) n--;
+  if (n > 2100) n-=12;
   while (n<2021) {
     n += 28;
   }
